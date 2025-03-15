@@ -1,0 +1,123 @@
+@media screen and (min-width: 768px) {
+  .navigation {
+    margin-top: -10%;
+    margin-left: 2%;
+    width: 60px;
+  }
+    .navigation li {
+        list-style: none;
+        margin-top: 90%;
+        height: 30px;
+      }
+      .navigation li img{
+        border-radius: 5px;
+        width: 60px;
+        height: 60px;
+      }
+      .icon {
+        margin-left: 45%;
+      }
+    .overlay {
+      margin-top: 1%;
+        z-index: 0;
+    }
+    .overlay .closebtn {
+      top: 50px;
+    }
+    .overlay a {
+      margin-top: -5%;
+      font-size: 26px;
+    }
+    .overlay a div{
+      margin-left: 35%;
+      width: 340px;
+     }
+    .navImg {
+        display: block;
+        position: absolute;
+        width: 60px;
+        height: 654px;
+        margin-top: 0.8%;
+        margin-left: 2.3%;
+      }
+      .details {
+        margin-top: 20%;
+        margin-left: 5%;
+      }
+      .details, .recentCustomers {
+        display: block;
+        position: absolute;
+        display: grid;
+        min-height: 300px;
+        width: 400px;
+        padding: 20px;
+        background-color: var(--white);
+        color: var(--blue);
+        box-shadow:
+          inset 5px 5px 6px #acacaca5,
+          inset -5px -5px 6px rgb(93, 78, 99);
+        border-radius: 20px;
+      }
+      .recentCustomers {
+  margin-left: 120%;
+      }
+      h4 {
+        animation: fade-in2 infinite  5s ease-in forwards, appear1 4s ease-in forwards;
+      }
+      @keyframes appear1 {
+        0% {
+          opacity: 0;
+        }
+      
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes fade-in2 {
+        0% {
+          color: #ee2fdbea;
+        }
+      
+        100% {
+          color: var(--blue);
+        }
+      }
+    footer {
+        margin-top: 30%;
+    }
+  
+  }
+
+  @media screen and (width: 768px) {
+    .details {
+      margin-top: 35%;
+      margin-left: -25%;
+    }
+    footer {
+      margin-top: 55%;
+  }
+  }
+  @media screen and (width: 820px) {
+    .cardBox .card {
+      margin-left: -85%;
+    }
+    .details {
+      margin-top: 25%;
+      margin-left: -35%;
+    }
+    footer {
+      margin-top: 45%;
+  }
+  }
+
+  @media screen and (max-width: 480px){
+    .cardBox {
+      margin-left: 0px;
+      grid-template-columns: repeat(1,1fr);
+    }
+    .cardBox .card {
+      padding: 30px;
+      width: 250px;
+      margin-left: 50px;
+    }
+  }
