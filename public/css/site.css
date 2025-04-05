@@ -12,7 +12,7 @@ body {
   position: absolute;
   width: 30px;
   border-radius: 5px;
-  margin-top: -185%;
+  margin-top: -205%;
   background-color: var(--blue);
 }
 .navigation li {
@@ -168,7 +168,7 @@ footer {
   z-index: 0;
 }
 .cardBox .card {
-  margin-top: 10%;
+  /* margin-top: 10%; */
   position: relative;
   background: var(--blue);
   /* padding: 30px; */
@@ -215,7 +215,7 @@ footer {
 .cardBox .card .numbers {
   position: relative;
   font-weight: 500;
-  font-size: 2.5em;
+  font-size: 2em;
   color: var(--white);
 }
 .cardBox .card .cardName {
@@ -230,7 +230,9 @@ footer {
 .cardBox .card:hover .numbers,
 .cardBox .card:hover .cardName,
 .cardBox .card:hover .iconBox,
-.cardBox .card:hover .btn{
+.cardBox .card:hover .btn,
+.cardBox .card:hover .text,
+.cardBox .card:hover span{
    color: var(--blue);
 }
 
@@ -257,15 +259,20 @@ footer {
 }
 .btn {
   /* text-decoration: none; */
+  position: absolute;
+  margin-top: 60%;
+  margin-left: -30%;
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
 }
 .card span {
   display: none;
   position: absolute;
   z-index: 1;
-  margin-top: 25%;
-  background-color: #ee2fdbea;
+  margin-top: -25%;
+  margin-left: 40%;
+  /* background-color: #ee2fdbea; */
+  color: #28a0b0;
   border-radius: 5px;
   padding: 4px;
   box-shadow:
@@ -288,7 +295,12 @@ footer {
 
 .text {
   display: none;
-  color: #287bff;
+  color: white;
+  height: 200px;
+  width: 200px;
+}
+.card span {
+color: white;
 }
 img {
   border-radius: 5px;
