@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .navigation {
     margin-top: -10%;
     margin-left: 2%;
@@ -41,7 +41,7 @@
         margin-left: 2.3%;
       }
       .details {
-        margin-top: 20%;
+        margin-top: 22%;
         margin-left: 5%;
       }
       .details, .recentCustomers {
@@ -82,6 +82,22 @@
           color: var(--blue);
         }
       }
+      .card span {
+        margin-top: -10%;
+        margin-left: 73%;
+      }
+      .text {
+        width: 400px;
+      }
+      .cardBox .card {
+        margin-top: 1%;
+      }
+      .cardBox .card .numbers {
+        font-size: 2.5em;
+      }
+      .btn {
+        font-size: 20px;
+      }
     footer {
         margin-top: 30%;
     }
@@ -89,26 +105,99 @@
   }
 
   @media screen and (width: 768px) {
-    .details {
-      margin-top: 35%;
-      margin-left: -25%;
+    .navigation {
+      margin-top: 10%;
+      margin-left: 2%;
+      width: 60px;
     }
-    footer {
-      margin-top: 55%;
-  }
-  }
-  @media screen and (width: 820px) {
     .cardBox .card {
-      margin-left: -85%;
+      margin-top: 10%;
+      position: absolute;
+      padding: 30px;
     }
-    .details {
-      margin-top: 25%;
-      margin-left: -35%;
+    .cardBox .card:nth-child(2) {
+      margin-top: 45%;
+    }
+    .cardBox .card:nth-child(3) {
+      margin-top: 80%;
     }
     footer {
+      margin-top: 115%;
+  }
+  }
+  @media screen and (width: 820px), screen and (width: 912px){
+    .navigation {
+      margin-top: 10%;
+      margin-left: 2%;
+      width: 60px;
+    }
+    .cardBox .card {
+      margin-top: 10%;
+      position: absolute;
+      padding: 30px;
+    }
+    .cardBox .card:nth-child(2) {
       margin-top: 45%;
+    }
+    .cardBox .card:nth-child(3) {
+      margin-top: 80%;
+    }
+    footer {
+      margin-top: 115%;
+  }
+  .details, .recentCustomers {
+    display: none;
   }
   }
+  @media screen and (width: 540px){
+    .navigation {
+      margin-top: 10%;
+      margin-left: 2%;
+      width: 60px;
+    }
+    .cardBox .card {
+      margin-top: 15%;
+      margin-left: -15%;
+      position: absolute;
+      padding: 30px;
+    }
+    .cardBox .card:nth-child(2) {
+      margin-top: 65%;
+    }
+    .cardBox .card:nth-child(3) {
+      margin-top: 105%;
+    }
+    footer {
+      margin-top: 135%;
+  }
+  .details, .recentCustomers {
+    display: none;
+  }
+  }
+  /* @media screen and (width: 1024px) {
+    .navigation {
+      margin-top: 10%;
+      margin-left: 2%;
+      width: 60px;
+    }
+    .cardBox .card {
+      margin-top: 10%;
+      position: absolute;
+      padding: 30px;
+    }
+    .cardBox .card:nth-child(2) {
+      margin-top: 45%;
+    }
+    .cardBox .card:nth-child(3) {
+      margin-top: 80%;
+    }
+    footer {
+      margin-top: 115%;
+  }
+  .details, .recentCustomers {
+    display: none;
+  }
+  } */
 
   @media screen and (max-width: 480px){
     .cardBox {
